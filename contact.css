@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .para {
+    width: 50%;
+  }
+  .text-reset {
+    text-decoration: none;
+  }
+  button.btn.btn-primary{
+    margin: 0.9rem 0;
+    width: 7rem;
+  }
+  @media (max-width:767px) {
+ 
+  .header{
+    height: 30vh; 
+  }
+  }

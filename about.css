@@ -118,6 +118,9 @@ img.img-fluid {
   align-items: center;
   justify-content: space-around;
 }
+.para {
+  width: 50%;
+}
 .text-reset {
   text-decoration: none;
 }

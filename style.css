@@ -11,6 +11,7 @@
     rgba(227, 180, 164, 1) 40%,
     rgba(223, 130, 141, 1) 100%
   );
+ 
 }
 .navbar {
   padding-top: 20px !important;
@@ -133,4 +134,12 @@ span {
 }
 .text-reset {
   text-decoration: none;
+}
+@media (max-width:767px) {
+  img.img-fluid{
+    visibility: hidden;
+  }
+.header{
+  height: 100vh ;
+}
 }

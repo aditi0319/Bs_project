@@ -104,3 +104,11 @@ span {
 /* .service{
     height: 100vh;
   } */
+  @media (max-width:767px) {
+    img.img-fluid{
+      visibility: hidden;
+    }
+    .header2{
+      height: 100vh ;
+    }
+  }
